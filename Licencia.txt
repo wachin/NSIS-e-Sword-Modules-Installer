@@ -1,0 +1,6 @@
+
+Hice este instalador para facilitar la instalación de e-Sword Extraido con Universal Extractor (con la finalidad de que e-Sword funcione bien en Linux en PlayOnLinux)
+
+Washington Indacochea Delgado
+Jipijapa/Manabí/Ecuador
+wachin.id@gmail.com
