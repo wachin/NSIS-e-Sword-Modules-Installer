@@ -1,0 +1,10 @@
+
+Hice este instalador para instalar Modulos de e-Sword en Linux con PlayonLinux:
+
+Instalar e-Sword 12.2.0 en Linux con PlayOnLinux
+https://facilitarelsoftwarelibre.blogspot.com/2019/12/instalar-e-sword-en-linux-con-playonlinux.html
+
+Washington Indacochea Delgado
+Jipijapa/Manabí/Ecuador
+wachin.id@gmail.com
+2024-09-06

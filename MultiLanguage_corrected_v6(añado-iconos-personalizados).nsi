@@ -36,6 +36,15 @@
   ;Show all languages, despite user's codepage
   !define MUI_LANGDLL_ALLLANGUAGES
 
+  ;Use custom icons
+  !define MUI_ICON "example_files\icon_installer.ico"
+  !define MUI_UNICON "example_files\icon_uninstaller.ico"
+
+;Use custom pictures for the 'Welcome' and 'Finish' page
+  !define MUI_HEADERIMAGE_RIGHT
+  !define MUI_WELCOMEFINISHPAGE_BITMAP "example_files\picture_installer.bmp"
+  !define MUI_UNWELCOMEFINISHPAGE_BITMAP "example_files\picture_uninstaller.bmp"
+
 ;--------------------------------
 ;Language Selection Dialog Settings
 
@@ -48,7 +57,7 @@
 ;Pages
 
   !insertmacro MUI_PAGE_WELCOME
-  !insertmacro MUI_PAGE_LICENSE "${NSISDIR}\Docs\Modern UI\License.txt"
+  !insertmacro MUI_PAGE_LICENSE "example_files\License.txt"
   !insertmacro MUI_PAGE_COMPONENTS
   !insertmacro MUI_PAGE_DIRECTORY
   !insertmacro MUI_PAGE_INSTFILES
@@ -56,7 +65,7 @@
 
   !insertmacro MUI_UNPAGE_WELCOME
   !insertmacro MUI_UNPAGE_CONFIRM
-  !insertmacro MUI_UNPAGE_LICENSE "${NSISDIR}\Docs\Modern UI\License.txt"
+  !insertmacro MUI_UNPAGE_LICENSE "example_files\License.txt"
   !insertmacro MUI_UNPAGE_COMPONENTS
   !insertmacro MUI_UNPAGE_DIRECTORY
   !insertmacro MUI_UNPAGE_INSTFILES
